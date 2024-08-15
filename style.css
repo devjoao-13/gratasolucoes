@@ -1,0 +1,289 @@
+/*estilo geral*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+body{
+        background-color: black;
+        height: 100vh;
+    }
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+
+h2.titulo{
+color: #3454a4;
+font-size: 40px;
+text-align: center;
+}
+h2.titulo span{
+color: #8d807d
+
+}
+
+.flex {
+    display: flex;
+
+}
+
+.contato button{
+padding:  15px 15px;
+font-size: 18px;
+font-weight: 600;
+margin-top: 50px;
+background-color: #3454a4;
+border: 0;
+border-radius: 30px;
+cursor: pointer;
+transition: 0.2s;
+
+}
+
+ button:hover {
+    box-shadow: 0px 0px 50px  #3454a4;
+    transform: scale(1.05);
+}
+/* CABEÇALHO */
+
+header {
+    padding: 40PX 4%;
+    
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+
+}
+
+header a {
+color: #3454a4;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover {
+    color: #8d807d;
+    transform: scale(1.6);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 50px;
+    margin-top: 70px;
+}
+
+
+
+/* topo do site */
+
+section.topo{
+padding: 100px 4px;
+
+}
+
+section.topo .flex{
+align-items: center;
+justify-content: center;
+gap: 90px;
+}
+
+.topo .txt-topo, h1{
+color: #3454a4;
+margin: 50px 0;
+margin-top: 6px;
+font-size: 40px;
+}
+
+.topo h1 span{
+color: rgba(141,128,125,255);
+
+}
+
+.topo .txt-topo, p {
+color: #3454a4;
+margin: 50px 0;
+margin-top: 6px;
+font-size: 22px;
+}
+
+
+/* estilo especialidades */
+
+section.especialidades{
+padding: 40px 4%;
+box-shadow: 0 0 40px 10px #3454a4;
+}
+
+section.especialidades .flex{
+    gap: 60px;
+}
+
+.especialidades .especialidades-box{
+color: #8d807d;
+padding: 40px;
+border-radius: 30px;
+margin-top: 50px;
+transition: .5s;
+}
+
+
+.especialidades .especialidades-box:hover{
+transform: scale(1.05);
+box-shadow: 0 0 50px #3454a4;
+}
+
+.especialidades .especialidades-box i{
+font-size: 70px;
+color:#3454a4
+}
+
+.especialidades .especialidades-box h3{
+font-size: 30px;
+margin: 20px 0;
+text-align: justify;
+}
+
+
+/*estilo sobre*/
+
+section.sobre{
+    padding: 60px 4%;
+    box-shadow: 0 0 40px 10px #3454a4;
+}
+
+
+section.sobre .flex{
+align-items: center;
+gap: 60px;
+}
+
+.sobre .txt-sobre{
+color:#3454a4
+}
+
+.sobre .txt-sobre h2{
+font-size: 40px;
+line-height: 50px;
+margin-bottom: 25px;
+}
+.sobre .txt-sobre h2 span{
+color:#8d807d;
+display: block;}
+
+.sobre .txt-sobre p{
+margin: 20px 0;
+text-align: justify;
+}
+
+.btn-social button{
+width: 50px;
+height: 50px;
+border-radius: 40%;
+border: none;
+background-color: white;
+cursor: pointer;
+margin: 0 10px;
+transition: .2s;
+}
+
+.btn-social button i{
+background-color: whitesmoke;
+font-size: 35px;
+}
+
+/*estilo rodapé */
+
+footer{
+padding: 40px 4%;
+box-shadow: 0 0 40px 10px #3454a4;
+}
+
+footer .flex{
+justify-content: space-between;
+}
+
+footer .line-footer{
+padding: 20px 0;
+}
+
+.borda{
+    border-bottom: 2px solid #3454a4 ;
+
+}
+
+footer .line-footer p i{
+color:#8d807d;
+font-size: 40px;
+}
+
+footer .line-footer p a{
+color: #3454a4;
+
+}
+
+@media screen and (max-width: 1020px){
+
+/* geral*/
+.flex{
+flex-direction: column;
+}
+ .topo .flex{
+flex-direction: column-reverse;
+}
+
+
+
+    /*cabeçalho*/
+.menu-descktop, .contato{
+    display: none;
+}
+
+
+
+section.topo{
+    padding: 20px 8px;
+    
+    }
+    
+
+
+
+.topo .txt-topo, h1{
+    margin: 50px 0;
+    margin-top: 6px;
+    font-size: 35px;
+    }
+
+/*sobre*/
+section.sobre{
+    padding: 80px 8%;
+    box-shadow: 0 0 40px 10px #3454a4;
+}
+
+footer{
+  text-align: center;
+    box-shadow: 0 0 40px 10px #3454a4;
+    }
+
+footer .flex{
+    flex-direction: column;
+    gap: 30px
+}
+
+}
+    
+
