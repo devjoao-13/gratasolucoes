@@ -315,7 +315,23 @@ footer .line-footer p a {
     .flex {
         flex-direction: column;
     }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
 
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
     .topo .flex {
         flex-direction: column-reverse;
     }
@@ -437,5 +453,10 @@ footer .line-footer p a {
   
     .abrir-menu i {
         color: #3454a4
+    }
+
+    footer {
+        padding: 40px 4%;
+        box-shadow: 0 0 0px 0px #3454a4;
     }
 }
