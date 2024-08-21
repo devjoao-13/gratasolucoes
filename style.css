@@ -344,10 +344,20 @@ footer .line-footer p a {
     }
 
     .img-sobre img{
-        width: 100%;
+        width: 100%;}
 
+        footer .line-footer {
+            padding: 10px 0;
+        }
 
-
-    }
+        footer .line-footer p i {
+            color: #8d807d;
+            font-size: 20px;
+        }
+        
+        footer .line-footer p a {
+            color: #3454a4;
+        font-size: 20px;
+        }
 
 }
