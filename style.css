@@ -312,16 +312,12 @@ footer .line-footer p a {
 @media screen and (max-width: 1020px) {
 
     /* geral*/
+   
+    
     .flex {
         flex-direction: column;
     }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: black;
-}
-
+    
 body {
     background-color: black;
     height: 100vh;
@@ -440,7 +436,18 @@ body {
     footer .line-footer {
         padding: 10px 0;
     }
+    
+    .sobre .txt-sobre h2 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 25px;
+    }
+    
 
+    .sobre .txt-sobre p {
+        margin: 20px 8px;
+        text-align: justify;
+    }
     footer .line-footer p i {
         color: #8d807d;
         font-size: 20px;
