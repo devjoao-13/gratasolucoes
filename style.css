@@ -501,7 +501,7 @@ footer .line-footer p a {
     }
 
     .img-topo {
-        height: 350px;
-    
+       height: 350px;
+       flex: auto;
     }
 }
