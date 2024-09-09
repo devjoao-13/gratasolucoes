@@ -312,7 +312,13 @@ footer .line-footer p a {
 @media screen and (max-width: 1020px) {
 
     /* geral*/
-
+    
+       *{ margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: black;
+    }
+    
 
     .flex {
         flex-direction: column;
@@ -348,12 +354,19 @@ footer .line-footer p a {
 
     }
 
-
+    .topo .txt-topo,
+    p {
+        color: #3454a4;
+        margin: 30px 35px;
+        margin-top: 5px;
+        font-size: 18px;
+    }
+    
 
 
     .topo .txt-topo,
     h1 {
-        margin: 50px 0;
+        margin: 50px 45px;
         margin-top: 6px;
         font-size: 35px;
     }
@@ -366,9 +379,7 @@ footer .line-footer p a {
 
     .img-sobre {
         flex-direction: center;
-
-
-    }
+}
 
     footer {
         text-align: center;
@@ -382,7 +393,7 @@ footer .line-footer p a {
 
     h2.titulo {
         color: #3454a4;
-        font-size: 20px;
+        font-size: 18px;
         text-align: center;
     }
 
@@ -390,6 +401,25 @@ footer .line-footer p a {
         color: #8d807d;
 
     }
+
+
+    .sobre .txt-sobre h2 {
+        font-size: 40px 40px;
+        line-height: 50px;
+        margin-bottom: 25px;
+    }
+    
+    .sobre .txt-sobre h2 span {
+        color: #8d807d;
+        display: block;
+    }
+    
+    .sobre .txt-sobre p {
+        margin: 20px 20px;
+        text-align: justify;
+    }
+    
+
 
     section.especialidades {
         padding: 50px 15%;
