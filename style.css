@@ -312,22 +312,23 @@ footer .line-footer p a {
 @media screen and (max-width: 1020px) {
 
     /* geral*/
-   
-    
+
+
     .flex {
         flex-direction: column;
     }
-    
-body {
-    background-color: black;
-    height: 100vh;
-}
 
-.interface {
-    max-width: 1280px;
-    margin: 0 auto;
+    body {
+        background-color: black;
+        height: 100vh;
+    }
 
-}
+    .interface {
+        max-width: 1280px;
+        margin: 0 auto;
+
+    }
+
     .topo .flex {
         flex-direction: column-reverse;
     }
@@ -433,21 +434,23 @@ body {
         padding: 60px 4%;
         box-shadow: 0 0 0px 0px #3454a4;
     }
+
     footer .line-footer {
         padding: 10px 0;
     }
-    
+
     .sobre .txt-sobre h2 {
         font-size: 35px;
         line-height: 40px;
         margin-bottom: 25px;
     }
-    
+
 
     .sobre .txt-sobre p {
         margin: 20px 8px;
         text-align: justify;
     }
+
     footer .line-footer p i {
         color: #8d807d;
         font-size: 20px;
@@ -457,13 +460,18 @@ body {
         color: #3454a4;
         font-size: 20px;
     }
-  
+
     .abrir-menu i {
-        color: #3454a4
+        color: #3454a4;
     }
 
     footer {
         padding: 40px 4%;
         box-shadow: 0 0 0px 0px #3454a4;
+    }
+
+    .img-topo {
+        height: 350px;
+    
     }
 }
